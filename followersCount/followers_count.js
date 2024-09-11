@@ -26,3 +26,8 @@ function increaseCount() {
   displayCount(); // Display the count
   checkCountValue(); // Check count value and display messages
 }
+function resetCount() {
+  count=0; // Reset the count by 0
+  displayCount(); // Display the count
+  alert("Your Instagram post has been reset")    
+}
